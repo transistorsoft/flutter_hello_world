@@ -1,0 +1,37 @@
+PODS:
+  - background_fetch (0.4.0):
+    - Flutter
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - Flutter (1.0.0)
+  - flutter_background_geolocation (1.5.0):
+    - CocoaLumberjack (~> 3.6.0)
+    - Flutter
+
+DEPENDENCIES:
+  - background_fetch (from `.symlinks/plugins/background_fetch/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_background_geolocation (from `.symlinks/plugins/flutter_background_geolocation/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+
+EXTERNAL SOURCES:
+  background_fetch:
+    :path: ".symlinks/plugins/background_fetch/ios"
+  Flutter:
+    :path: Flutter
+  flutter_background_geolocation:
+    :path: ".symlinks/plugins/flutter_background_geolocation/ios"
+
+SPEC CHECKSUMS:
+  background_fetch: 81de747c63e1ec3558e222af758c1b5fa2662c70
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_background_geolocation: 7d14cf94f187e11b2cb1754134dbaf7638d949c3
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
