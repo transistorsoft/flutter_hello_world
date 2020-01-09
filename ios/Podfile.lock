@@ -8,11 +8,17 @@ PODS:
   - flutter_background_geolocation (1.5.0):
     - CocoaLumberjack (~> 3.6.0)
     - Flutter
+  - flutter_plugin_android_lifecycle (0.0.1):
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - background_fetch (from `.symlinks/plugins/background_fetch/ios`)
   - Flutter (from `Flutter`)
   - flutter_background_geolocation (from `.symlinks/plugins/flutter_background_geolocation/ios`)
+  - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
 
 SPEC REPOS:
   trunk:
@@ -25,12 +31,18 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_background_geolocation:
     :path: ".symlinks/plugins/flutter_background_geolocation/ios"
+  flutter_plugin_android_lifecycle:
+    :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
 
 SPEC CHECKSUMS:
   background_fetch: 81de747c63e1ec3558e222af758c1b5fa2662c70
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_background_geolocation: 7d14cf94f187e11b2cb1754134dbaf7638d949c3
+  flutter_plugin_android_lifecycle: 47de533a02850f070f5696a623995e93eddcdb9b
+  image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
 
 PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
 
